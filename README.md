@@ -2,10 +2,13 @@
 
 [![dhtmlx.com](https://img.shields.io/badge/made%20by-DHTMLX-blue)](https://dhtmlx.com/)
 
+[How to start](#how-to-start) | [Key features](#key-features) | [License](#license) | [Useful links](#links) | [Other examples](#examples) | [Join our online community](#join)
+
 ![DHTMLX Spreadsheet with Angular Demo](https://raw.githubusercontent.com/DHTMLX/angular-spreadsheet-demo/master/spreadsheet.png)
 
 With the DHTMLX [JavaScript spreadsheet library](https://dhtmlx.com/docs/products/dhtmlxSpreadsheet/), you can integrate an intuitive Excel-like table for editing and formatting data safely and conveniently. 
 
+<a name="how-to-start"></a>
 ## How to start
 
 ### Online
@@ -28,6 +31,7 @@ npm install
 npm run start
 ```
 
+<a name="key-features"></a>
 ## DHTMLX Spreadsheet key features
 
 - Convenient API
@@ -52,6 +56,11 @@ npm run start
 - Import and export of data to JSON and Excel
 - Setting custom import/export path
 
+<a name="license"></a>
+## License ##
+This demo is available under the Evaluation license. To use it in your projects, please choose a proper license on the DHTMLX website: [https://dhtmlx.com/docs/products/licenses.shtml](https://dhtmlx.com/docs/products/licenses.shtml)
+
+<a name="links"></a>
 ## Useful links
 
 - [Online demo](https://replit.com/@dhtmlx/dhtmlx-spreadsheet-with-angular)
@@ -59,6 +68,7 @@ npm run start
 - [Technical support ](https://forum.dhtmlx.com/c/spreadsheet)
 - [Online  documentation](https://docs.dhtmlx.com/spreadsheet/)
 
+<a name="examples"></a>
 ## Other examples
 
 Check out examples of using DHTMLX Spreadhseet  with other technologies:
@@ -67,6 +77,7 @@ Check out examples of using DHTMLX Spreadhseet  with other technologies:
 | ----- | ----- | ----- | ----- | ----- | 
 | [![javascript](https://dhtmlx.com/images/common/technologies/js.svg)](https://github.com/DHTMLX/docs-spreadsheet) | [![react](https://dhtmlx.com/images/common/technologies/react.svg)](https://github.com/DHTMLX/react-spreadsheet-demo) | [![svelte](https://dhtmlx.com/images/common/technologies/svelte.svg)](https://github.com/DHTMLX/svelte-spreadsheet-demo) | [![vue](https://dhtmlx.com/images/common/technologies/vue.svg)](https://github.com/DHTMLX/vue-spreadsheet-demo) | [![typescript](https://dhtmlx.com/images/common/technologies/typescript.svg)](https://docs.dhtmlx.com/spreadsheet/using_typescript/)
 
+<a name="join"></a>
 ## Join our online community
 
 - Star our GitHub repo :star:
