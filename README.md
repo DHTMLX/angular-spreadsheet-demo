@@ -6,7 +6,7 @@
 
 ![DHTMLX Spreadsheet with Angular Demo](https://raw.githubusercontent.com/DHTMLX/angular-spreadsheet-demo/master/spreadsheet.png)
 
-With the DHTMLX [JavaScript spreadsheet library](https://dhtmlx.com/docs/products/dhtmlxSpreadsheet/), you can integrate an intuitive Excel-like table for editing and formatting data safely and conveniently. 
+With the DHTMLX [JavaScript Spreadsheet library](https://dhtmlx.com/docs/products/dhtmlxSpreadsheet/), you can integrate an intuitive Excel-like table for editing and formatting data safely and conveniently. 
 
 <a name="how-to-start"></a>
 ## How to start
@@ -63,7 +63,6 @@ This demo is available under the Evaluation license. To use it in your projects,
 <a name="links"></a>
 ## Useful links
 
-- [Online demo](https://replit.com/@dhtmlx/dhtmlx-spreadsheet-with-angular)
 - [More demos about the DHTMLX Spreadsheet functionality](https://snippet.dhtmlx.com/ihtkdcoc?tag=spreadsheet&mode=wide)
 - [Technical support ](https://forum.dhtmlx.com/c/spreadsheet)
 - [Online  documentation](https://docs.dhtmlx.com/spreadsheet/)
@@ -71,11 +70,11 @@ This demo is available under the Evaluation license. To use it in your projects,
 <a name="examples"></a>
 ## Other examples
 
-Check out examples of using DHTMLX Spreadhseet  with other technologies:
+Check out examples of using DHTMLX Spreadhseet with other technologies:
 
 | JavaScript | React | Svelte | Vue | TypeScript |
 | ----- | ----- | ----- | ----- | ----- | 
-| [![javascript](https://dhtmlx.com/images/common/technologies/js.svg)](https://github.com/DHTMLX/docs-spreadsheet) | [![react](https://dhtmlx.com/images/common/technologies/react.svg)](https://github.com/DHTMLX/react-spreadsheet-demo) | [![svelte](https://dhtmlx.com/images/common/technologies/svelte.svg)](https://github.com/DHTMLX/svelte-spreadsheet-demo) | [![vue](https://dhtmlx.com/images/common/technologies/vue.svg)](https://github.com/DHTMLX/vue-spreadsheet-demo) | [![typescript](https://dhtmlx.com/images/common/technologies/typescript.svg)](https://docs.dhtmlx.com/spreadsheet/using_typescript/)
+| [![javascript](https://dhtmlx.com/images/common/technologies/js.svg)](https://dhtmlx.com/docs/products/dhtmlxSpreadsheet/) | [![react](https://dhtmlx.com/images/common/technologies/react.svg)](https://github.com/DHTMLX/react-spreadsheet-demo) | [![svelte](https://dhtmlx.com/images/common/technologies/svelte.svg)](https://github.com/DHTMLX/svelte-spreadsheet-demo) | [![vue](https://dhtmlx.com/images/common/technologies/vue.svg)](https://github.com/DHTMLX/vue-spreadsheet-demo) | [![typescript](https://dhtmlx.com/images/common/technologies/typescript.svg)](https://docs.dhtmlx.com/spreadsheet/using_typescript/)
 
 <a name="join"></a>
 ## Join our online community
