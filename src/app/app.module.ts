@@ -7,7 +7,7 @@ import { SpreadsheetComponent } from "./spreadsheet/spreadsheet.component";
 @NgModule({
   declarations: [AppComponent, SpreadsheetComponent],
   imports: [BrowserModule],
-  providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent]
 })
+
 export class AppModule {}
