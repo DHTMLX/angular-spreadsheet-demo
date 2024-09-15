@@ -1,38 +1,34 @@
-import { Spreadsheet } from '@dhx/trial-spreadsheet';
-import { getData } from './data';
+import { Spreadsheet } from "@dhx/trial-spreadsheet";
+import { getData } from "./data";
 import {
-  Component,
-  ElementRef,
-  OnInit,
-  OnDestroy,
-  ViewChild,
-  ViewEncapsulation,
+    Component,
+    ElementRef,
+    OnInit,
+    OnDestroy,
+    ViewChild,
+    ViewEncapsulation
 } from '@angular/core';
+
 @Component({
-  encapsulation: ViewEncapsulation.None,
-  selector: 'spreadsheet',
-  styleUrls: ['./spreadsheet.component.css'],
-  template: `<div #here class="widget"></div>`,
+    encapsulation: ViewEncapsulation.None,
+    selector: 'spreadsheet',
+    styleUrls: ['./spreadsheet.component.css'],
+    template: `<div #container class="widget"></div>`
 })
+
 export class SpreadsheetComponent implements OnInit, OnDestroy {
-  @ViewChild('here', { static: true }) spreadsheetContainer!: ElementRef;
+    @ViewChild('container', { static: true }) spreadsheet_container!: ElementRef;
 
-  private _spreadsheet: any;
+    private _spreadsheet!: Spreadsheet;
 
-  ngOnInit() {
-    let spreadsheet = new Spreadsheet(
-      this.spreadsheetContainer.nativeElement,
-      {},
-    );
-    spreadsheet.parse(getData());
-    spreadsheet.events.on('ActionName', () => {
-      // do something
-    });
+    ngOnInit() {
+        let data = getData();
+        this._spreadsheet = new Spreadsheet( this.spreadsheet_container.nativeElement, {});
 
-    this._spreadsheet = spreadsheet;
-  }
+        this._spreadsheet.parse(data);
+    }
 
-  ngOnDestroy(): void {
-    this._spreadsheet.destructor();
-  }
+    ngOnDestroy() {
+        this._spreadsheet.destructor();
+    }
 }
